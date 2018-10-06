@@ -138,14 +138,14 @@ sub {
 herosectiontop {
   padding-top: 0px;
   padding-bottom: 0px;
-  margin-bottom: -.3em;
+  margin-bottom: -2pt;
   position: relative;
   z-index: 10; }
 
 herosectionbottom {
   padding-top: 0px;
   padding-bottom: 0px;
-  margin-top: -.3em;
+  margin-top: -2pt;
   position: relative;
   z-index: 10; }
 
