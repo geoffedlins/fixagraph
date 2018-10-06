@@ -136,29 +136,18 @@ sub {
 }
 
 herosectiontop {
-  padding-top: 100px;
+  padding-top: 0px;
   padding-bottom: 0px;
-  margin-bottom: -1px;
+  margin-bottom: -.3em;
   position: relative;
   z-index: 10; }
-  @media (max-width: 991px) {
-    section {
-      padding-top: 80px;
-      padding-bottom: 0px;
-      margin-bottom: -1px; } }
 
 herosectionbottom {
   padding-top: 0px;
   padding-bottom: 0px;
-  margin-top: -1px;
+  margin-top: -.3em;
   position: relative;
   z-index: 10; }
-  @media (max-width: 991px) {
-    section {
-      padding-top: 0px;
-      padding-bottom: 0px; 
-      margin-top:-1px;} }
-
 
 section {
   padding-top: 100px;
