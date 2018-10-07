@@ -4,7 +4,8 @@ body {
   line-height: 1.875em;
   color: #5a6671;
   font-weight: 400;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  font-feature-settings:'ss09','ss12'; }
 
   @font-face{font-family:'Duplicate Sans Web';src:url('../fonts/DuplicateSans-Regular-Web.woff') format('woff');font-weight: 400;font-style: normal;font-stretch:normal;}@font-face{font-family:'Duplicate Sans Web';src:url('../fonts/DuplicateSans-Bold-Web.woff') format('woff');font-weight: 700;font-style: normal;font-stretch:normal; font-feature-settings:'ss09','ss12';}
 
@@ -23,7 +24,7 @@ img {
   max-width: 100%; }
 
 .partner-logo {
-  height: 70px; }
+  height: 4em; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'Duplicate Sans Web', "Dosis", sans-serif;
@@ -430,11 +431,18 @@ input, textarea {
   transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
 
 .header {
+  background: #ebe6f9;
   padding-top: 10px;
   padding-bottom: 10px;
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s; }
+  .header:hover {    
+    -webkit-transition: opacity .15s linear .1s;
+    background: #fff;
+    height: calc(100% + 2.1875rem);
+    transition: opacity .15s linear .1s;
+    z-index: 0; }
 
 .navbar-brand {
   position: relative; }
@@ -651,7 +659,7 @@ input, textarea {
   // this is the place to change easing for buttons
   -o-transition: .0s;
   transition: .0s;
-  text-transform: capitalize;
+  text-transform: none;
   font-family: 'Duplicate Sans Web', "Dosis", sans-serif;
   font-weight: 700;
   font-size: 24px !important;
@@ -661,7 +669,7 @@ input, textarea {
     box-shadow: none; }
 
 .btn-rounded {
-  border-radius: 100em; }
+  border-radius: .5em; }
 
 .btn-primary {
   background: #0081FF;
