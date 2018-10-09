@@ -657,6 +657,13 @@ pre {
   flex: 0 0 83.33333%;
   max-width: 83.33333%; }
 
+.col-10half {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 89%;
+  -ms-flex: 0 0 89%;
+  flex: 0 0 89%;
+  max-width: 89%; }
+
 .col-11 {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 91.66667%;
@@ -2908,8 +2915,8 @@ tbody.collapse.show {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: .5rem 0rem; }
-  .navbar > .container,
-  .navbar > .container-fluid {
+  .navbar > .headercontainer,
+  .navbar > .headercontainer-fluid {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;

@@ -122,6 +122,10 @@ sub {
   color: #d74d1f !important;
 }
 
+.herobutton {
+  justify-content: center !important;
+}
+
 .valpropheader {
     text-transform: uppercase !important;
     color: #bfc4c8 !important;
