@@ -5,20 +5,20 @@
 <herosectiontop class="py-md-0 u-flex-center heroimages" style="background:#ebe6f9">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-8 mb-1 mb-lg-0">
+        <div class="col-lg-7 mb-1 mb-lg-0">
           <h1 class="display-4 boldtitle blacktext">
             {{ $title }}
           </h1>
           {{ with $subtitle }}
-          <h2 class="u-lh-1_1 my-4 valprop blacktext">
+          <h3 class="my-4 valprop blacktext">
             {{ . | safeHTML }}
-          </h2>
+          </h3>
           {{ end }}
           <a href="" class="btn btn-green btn-rounded valprop herobutton">
             Get started for free
           </a>
         </div> <!-- END col-lg-7-->
-        <div class="col-lg-4 ml-auto">
+        <div class="col-lg-5 ml-auto">
           <img src="assets/img/front/bubblestop.svg" alt="Bubbles!">
         </div> <!-- END col-lg-4-->
       </div> <!-- END row-->
