@@ -7,7 +7,18 @@ body {
   overflow-x: hidden;
   font-feature-settings:'ss09','ss12'; }
 
-  @font-face{font-family:'Duplicate Sans Web';src:url('../fonts/DuplicateSans-Regular-Web.woff') format('woff');font-weight: 400;font-style: normal;font-stretch:normal;}@font-face{font-family:'Duplicate Sans Web';src:url('../fonts/DuplicateSans-Bold-Web.woff') format('woff');font-weight: 700;font-style: normal;font-stretch:normal; font-feature-settings:'ss09','ss12';}
+  @font-face {
+    font-family:'Duplicate Sans Web';
+    src:url('../fonts/DuplicateSans-Regular-Web.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch:normal;
+  
+  }@font-face {
+    font-family:'Duplicate Sans Web';
+    src:url('../fonts/DuplicateSans-Bold-Web.woff') format('woff');
+    font-weight: 700;font-style: normal;font-stretch:normal; 
+    font-feature-settings:'ss09','ss12'; }
 
   @font-face {
     font-family: 'TomateBold';
@@ -118,7 +129,7 @@ sub {
   }
 
 .ctalink {
-    color: #79BF66 !important;
+    color: #118669 !important;
   }
 
 .valprop {
@@ -128,6 +139,12 @@ sub {
 .valproppadding {
   padding-top: 0px !important;
   padding-bottom: 50px !important;
+}
+
+.outline {
+  color: transparent;
+  -webkit-text-stroke: 2px #3c2c6a;
+  text-transform: uppercase;
 }
 
 .stepbystepwords {  
@@ -305,7 +322,7 @@ input, textarea {
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
   width: 30px;
   height: 1px;
-  background-color: #fff;
+  background-color: #d74d1f;
   border-radius: 4px;
   position: absolute;
   -webkit-transition-property: -webkit-transform;
@@ -587,7 +604,7 @@ input, textarea {
 
 @media (max-width: 991px) {
   #navbarNav {
-    background: #fff;
+    background: #ebe6f9;
     max-height: 100vh;
     padding: 20px;
     overflow: auto; }
