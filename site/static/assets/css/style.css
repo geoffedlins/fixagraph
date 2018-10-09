@@ -602,7 +602,7 @@ input, textarea {
   -webkit-box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.1);
   box-shadow: 0 3px 20px 0 rgba(0, 129, 255, 0.1); }
 
-@media (max-width: 991px) {
+@media (max-width: 200px) {
   #navbarNav {
     background: #ebe6f9;
     max-height: 100vh;

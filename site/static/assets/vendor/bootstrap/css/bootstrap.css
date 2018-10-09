@@ -2888,7 +2888,7 @@ tbody.collapse.show {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem; }
+  padding: .5rem 0rem; }
   .navbar > .container,
   .navbar > .container-fluid {
     display: -webkit-box;
@@ -3003,8 +3003,8 @@ tbody.collapse.show {
         right: 0;
         left: auto; }
       .navbar-expand-sm .navbar-nav .nav-link {
-        padding-right: .5rem;
-        padding-left: .5rem; }
+        padding-right: .25rem;
+        padding-left: .25rem; }
     .navbar-expand-sm > .container,
     .navbar-expand-sm > .container-fluid {
       -webkit-flex-wrap: nowrap;
