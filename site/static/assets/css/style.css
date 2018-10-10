@@ -290,7 +290,7 @@ input, textarea {
     opacity: 0.0; } }
 
 .hamburger {
-  padding: 10px;
+  padding-top: 10px;
   display: inline-block;
   cursor: pointer;
   -webkit-transition-property: opacity, -webkit-filter;
