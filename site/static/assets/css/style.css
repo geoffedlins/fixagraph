@@ -135,6 +135,11 @@ sub {
     font-weight: bold !important;
   }
 
+@media (max-width: 767px) {
+  .valmobile {
+    font-size: 1rem !important;
+}}
+
 .ctalink {
     color: #118669 !important;
   }
