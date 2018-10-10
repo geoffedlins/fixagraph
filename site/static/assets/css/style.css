@@ -122,12 +122,12 @@ sub {
   color: #d74d1f !important;
 }
 
-.herobutton {
-  @media (max-width: 991) {
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;  
-}}
+@media (max-width: 767px) {
+  .herobutton {
+      width: 90% !important;
+      margin-left: 5% !important;
+      margin-right: 5% !important;  
+  }}
 
 .valpropheader {
     text-transform: uppercase !important;
@@ -155,8 +155,8 @@ sub {
 }
 
 .stepbystepwords {  
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 herosectiontop {
