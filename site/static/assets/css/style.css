@@ -48,6 +48,9 @@ h1, .h1 {
   @media (max-width: 767px) {
     h1, .h1 {
       font-size: 30px; } }
+  @media (max-width: 500px) {
+    h1, .h1 {
+      font-size: 26px; } }
 
 h2, .h2 {
   font-size: 30px; }
@@ -134,11 +137,6 @@ sub {
     color: #bfc4c8 !important;
     font-weight: bold !important;
   }
-
-@media (max-width: 767px) {
-  .valmobile {
-    font-size: 1rem !important;
-}}
 
 .ctalink {
     color: #118669 !important;
