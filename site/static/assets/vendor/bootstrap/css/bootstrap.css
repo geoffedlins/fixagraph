@@ -538,6 +538,14 @@ pre {
   padding-left: 15px;
   width: 100%; }
 
+.headercontainer-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%; }
+
 .row {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5906,6 +5914,11 @@ a.bg-dark:focus, a.bg-dark:hover {
 .py-2 {
   padding-top: 0.5rem !important;
   padding-bottom: 0.5rem !important; }
+
+.p-0 {
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+}
 
 .p-3 {
   padding: 1rem !important; }
