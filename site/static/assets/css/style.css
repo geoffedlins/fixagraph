@@ -459,14 +459,14 @@ input, textarea {
   transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
 
 .header {
-  background: #ebe6f9;
+  background: #fff;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #ebe6f9;
+  border-bottom: 0px solid #ebe6f9;
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s; }
-  .header:hover {    
+  .headerremove:hover {    
     -webkit-transition: opacity .15s linear .1s;
     background: #fff;
     border-bottom: 1px solid #d1cdde;
@@ -3992,10 +3992,10 @@ input, textarea {
   background: #20283b !important; }
 
 .bg-header {
-    background: #ebe6f9 !important; }
+    background: #fff !important; }
 
 .bg-section1 {
-    background: #ebe6f9 !important; }
+    background: #3c2c6a !important; }
 
 .bg-section2 {
     background: #ebe6f9 !important; }
