@@ -781,11 +781,11 @@ input, textarea {
 
 .btn-outline-green {
   background: transparent;
-  border-color: #118669;
+  border-color: #12a27e;
   border-width: 2px;
-  color: #118669 !important; }
+  color: #12a27e !important; }
   .btn-outline-green:hover {
-    background: #118669;
+    background: #12a27e;
     color: #fff !important; }
 
 .btn-red {
