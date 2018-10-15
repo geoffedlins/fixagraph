@@ -760,24 +760,33 @@ input, textarea {
     background: #ffad00;
     color: #fff; }
 
-.btn-green {
+.btn-orange {
   background: #d74d1f;
   // -webkit-box-shadow: 0 5px 40px 0 rgba(44, 212, 74, 0.3);
   // box-shadow: 0 5px 40px 0 rgba(44, 212, 74, 0.3);
   color: #fff !important; 
   font-weight: normal;}
-  .btn-green:hover {
+  .btn-orange:hover {
     background: #ba4721;
     color: #fff; }
 
-.btn-outline-green {
+.btn-outline-orange {
   background: transparent;
   border-color: #d74d1f;
   border-width: 2px;
   color: #fa480f !important; }
-  .btn-outline-green:hover {
+  .btn-outline-orange:hover {
     background: #fa480f;
-    color: #fff; }
+    color: #fff !important; }
+
+.btn-outline-green {
+  background: transparent;
+  border-color: #118669;
+  border-width: 2px;
+  color: #118669 !important; }
+  .btn-outline-green:hover {
+    background: #118669;
+    color: #fff !important; }
 
 .btn-red {
   background: #f64d62;
