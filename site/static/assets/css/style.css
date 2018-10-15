@@ -106,7 +106,7 @@ sub {
 }
 
 .purpletext {
-  color: #3c2c6a !important;
+  color: #2c1c5a !important;
 }
 
 .lightpurpletext {
@@ -770,6 +770,15 @@ input, textarea {
     background: #ba4721;
     color: #fff; }
 
+.btn-outline-green {
+  background: transparent;
+  border-color: #d74d1f;
+  border-width: 2px;
+  color: #fa480f !important; }
+  .btn-outline-green:hover {
+    background: #fa480f;
+    color: #fff; }
+
 .btn-red {
   background: #f64d62;
   -webkit-box-shadow: 0 5px 40px 0 rgba(246, 77, 98, 0.3);
@@ -777,13 +786,6 @@ input, textarea {
   color: #fff !important; }
   .btn-red:hover {
     background: #f5354d;
-    color: #fff; }
-
-.btn-outline-green {
-  background: transparent;
-  border-color: #2cd44a; }
-  .btn-outline-green:hover {
-    background: #27bf42;
     color: #fff; }
 
 .btn-sm {
