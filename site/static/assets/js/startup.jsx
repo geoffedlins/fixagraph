@@ -10,7 +10,7 @@ var NewComponent = React.createClass({
         {/*Favicon*/}
         <link rel="icon" href="assets/img/favicon/144x144.png" />
         {/* Title*/}
-        <title>TheFury - A complete landing solution for any business</title>
+        <title>Fixagraph - Writing support for academics with kids.</title>
         {/*Google fonts*/}
         <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700%7COpen+Sans:400,600,700" rel="stylesheet" />
         {/*Icon fonts*/}
