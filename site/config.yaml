@@ -7,7 +7,7 @@ params:
     # Main hero title
     title: Writing support for academics with kids.
     # Hero subtitle (optional)
-    subtitle: You'll <span class="boldtitle">write more</span> with a coach<br>& <span class="boldtitle">be right more</span> with an editor.<br>Fixagraph gives you both.
+    subtitle: Write more with a coach.<br>Be right more with an editor.<br>Get both & save time with Fixagraph.
     # Button text
     buttontext: Get started
     # Where the main hero button links to
