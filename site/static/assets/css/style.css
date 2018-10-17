@@ -465,11 +465,11 @@ input, textarea {
   border-bottom: 0px solid #ebe6f9;
   -webkit-transition: .3s;
   -o-transition: .3s;
-  transition: .3s; }
+  transition: .3s; 
+  border-bottom: 1px solid #ebe6f9;}
   .headerremove:hover {    
     -webkit-transition: opacity .15s linear .1s;
     background: #fff;
-    border-bottom: 1px solid #d1cdde;
     height: calc(100% + 2.1875rem);
     transition: opacity .15s linear .1s;
     z-index: 0; }
@@ -782,9 +782,18 @@ input, textarea {
 .btn-outline-orangehero {
   background: transparent;
   border-color: #d74d1f;
-  border-width: 2px;
+  border-width: 1.5px;
   color: #d74d1f !important; }
   .btn-outline-orangehero:hover {
+    background: #d74d1f;
+    color: #fff !important; }
+
+.btn-outline-orangeheader {
+  background: transparent;
+  border-color: #d74d1f;
+  border-width: 1px !important;
+  color: #d74d1f !important; }
+  .btn-outline-orangeheader:hover {
     background: #d74d1f;
     color: #fff !important; }
 
@@ -4020,6 +4029,9 @@ input, textarea {
 
 .bg-section2 {
     background: #ebe6f9 !important; }
+
+.bg-green {
+    background: #118669 !important; }
 
 .bg-footer {
   background: #ede8fa !important; }
