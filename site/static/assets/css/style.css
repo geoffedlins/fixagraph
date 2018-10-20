@@ -474,6 +474,9 @@ input, textarea {
     transition: opacity .15s linear .1s;
     z-index: 0; }
 
+.socialproof {
+  border-bottom: 1px solid #3c2c6a; }
+
 .navbar-brand {
   position: relative; }
 
@@ -4028,7 +4031,10 @@ input, textarea {
     background: #3c2c6a !important; }
 
 .bg-section2 {
-    background: #ebe6f9 !important; }
+    background: #ede8fa !important; }
+
+.bg-section3 {
+  background: #f7f5fd !important; }
 
 .bg-green {
     background: #118669 !important; }
