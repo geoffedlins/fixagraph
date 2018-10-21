@@ -1563,6 +1563,10 @@ pre {
     background-color: #e9ecef;
     opacity: 1; }
 
+.form-control-short {
+  height: 200px !important;
+}
+
 select.form-control:not([size]):not([multiple]) {
   height: calc(2.25rem + 2px); }
 

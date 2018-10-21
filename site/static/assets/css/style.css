@@ -142,6 +142,10 @@ sub {
     color: #118669 !important;
   }
 
+.inputtext {
+    font-size: 1.25rem !important;
+}
+
 .valprop {
     font-weight: normal !important;
   }
@@ -193,7 +197,7 @@ input, textarea {
   width: 100%; }
   input::-moz-placeholder, textarea::-moz-placeholder {
     color: #8ea4b8;
-    font-size: 1rem;
+    font-size: 1.25rem;
     opacity: 1; }
   input:-moz-placeholder, textarea:-moz-placeholder {
     color: #8ea4b8;
@@ -695,14 +699,14 @@ input, textarea {
   text-transform: none;
   font-family: 'Duplicate Sans Web', "Dosis", sans-serif;
   font-weight: 700;
-  font-size: 24px !important;
+  font-size: 1.25rem !important;
   padding: 0.8125rem 2rem; }
   .btn:focus {
     -webkit-box-shadow: none;
     box-shadow: none; }
 
 .btn-rounded {
-  border-radius: .5em; }
+  border-radius: .5rem !important; }
 
 .btn-primary {
   background: #0081FF;
@@ -823,6 +827,32 @@ input, textarea {
   padding-top: 4px;
   padding-bottom: 4px;
   font-size: 18px !important; }
+
+.btn-leftside {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-top-left-radius: .5rem !important;
+  border-bottom-left-radius: .5rem !important;
+  border-right: none !important; }
+
+.btn-rightside {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: .5rem !important;
+  border-bottom-right-radius: .5rem !important;
+  border-left: none !important; }
+
+.border-orange {
+  background-color: #f7f5fd !important;
+  border: 1px solid rgb(215,77,31, 0.5);
+  -webkit-transition: .15s;
+  -o-transition: .15s;
+  transition: .15s; }
+  .border-orange:focus {
+    background-color: #fff !important;
+    border: 1px solid #d74d1f;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
 
 .subsribe-rounded .form-control {
   border-color: #dde9f5; }
@@ -4036,8 +4066,11 @@ input, textarea {
 .bg-section3 {
   background: #f7f5fd !important; }
 
-.bg-green {
+.bg-fixagraphgreen {
     background: #118669 !important; }
+
+.bg-orange {
+  background: #d74d1f !important; }
 
 .bg-footer {
   background: #ede8fa !important; }
@@ -5048,6 +5081,10 @@ input, textarea {
 .input-group .form-control {
   padding-left: 20px !important;
   padding-right: 20px !important; }
+
+.height-limit {
+  height: .5rem !important;
+}
 
 .lead {
   font-size: 22px; }

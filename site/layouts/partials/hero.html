@@ -14,9 +14,14 @@
             {{ . | safeHTML }}
           </h3>
           {{ end }}
-                        <a href="" class="my-4 btn btn-outline-orangehero btn-rounded valprop herobutton">
-            Get started for free
-          </a>
+          <form class="form-inline">
+            <div class="input-group u-of-hidden">
+              <input type="text" class="form-control border-orange bg-inputbox p-3 btn-leftside inputtext" placeholder="Enter your email">
+              <button type="submit" class="input-group-btn btn btn-rightside btn-orange boldtitle">
+                <span class="lightpurpletext">Get started for free</span>
+              </button>
+            </div>
+          </form>
         </div> <!-- END col-lg-7-->
         <div class="col-lg-5 ml-auto">
           <img src="assets/img/front/bubblestop.svg" alt="Bubbles!">
