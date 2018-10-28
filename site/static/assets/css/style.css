@@ -469,8 +469,7 @@ input, textarea {
   border-bottom: 0px solid #ebe6f9;
   -webkit-transition: .3s;
   -o-transition: .3s;
-  transition: .3s; 
-  border-bottom: 1px solid #ebe6f9;}
+  transition: .3s; }
   .headerremove:hover {    
     -webkit-transition: opacity .15s linear .1s;
     background: #fff;
